@@ -12,8 +12,6 @@ public class Logik {
         //formelUmwandeln("(A ∨ ¬B ∨ ¬C) ∧ (¬A ∨ B) ∧ (¬A ∨ C)");
         //tableTurnAround("");
 
-        dpll(new String[][]{{"a", "b"}, {"-a"}, {"-b"}});
-
 
     }
 

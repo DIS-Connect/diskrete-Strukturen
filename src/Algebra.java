@@ -18,7 +18,7 @@ public class Algebra {
 
         //invers(23, 9991);         //1.wert  2.mod-Gruppe
 
-        gruppenInfo(9991);          //1. mod-Gruppe
+        //gruppenInfo(9991);          //1. mod-Gruppe
 
         //tabellierung(9);         //1. modGruppe
 
@@ -26,7 +26,7 @@ public class Algebra {
 
         //Primfaktorzerlegung
         //System.out.println(primFaktorzerlegung(70).toString());
-        //graphModulo(16);
+        graphModulo(16);
 
         //alleTeiler(1086);
 
@@ -51,7 +51,7 @@ H.automorphism_group().list()
 
         //automorphismusHoch("(1,2,3)(4,5)", 785, 6);                       //1. Automorphismus 2. hoch was?
 
-        //graphAuto(new String[]{"()", "(1,7)(6,8)","(1,7)(3,4)(6,8)","(3,4)"}, 8);
+        graphAuto(new String[]{"()", "(1,7)(6,8)","(1,7)(3,4)(6,8)","(3,4)"}, 8);
 
     }
 
